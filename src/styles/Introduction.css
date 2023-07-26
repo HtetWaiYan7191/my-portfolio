@@ -1,0 +1,11 @@
+.intro-img-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 1rem;
+}
+
+
+.intro-img-container img {
+    width: 150px;
+    opacity: 80%;
+}
