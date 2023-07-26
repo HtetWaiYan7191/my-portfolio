@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
     <nav className={`py-4 ${isMenuOpen ? `bg-inherit` : `bg-slate-900`}`}>
-      <div className={`mobile-menu-bar md:hidden flex justify-end ${isMenuOpen ? `hidden` : `flex`}`}>
+      <div className={`mobile-menu-bar md:hidden flex justify-end ${isMenuOpen ? `opacity-0` : `flex`}`}>
         <BiMenuAltRight className='text-sky-500 text-5xl me-2' onClick={() => setIsMenuOpen(!isMenuOpen)}/>
       </div>
-      <div className={`menu-list-container z-10 backdrop-blur-md flex flex-row-reverse justify-between  bg-slate-800 ${isMenuOpen ? 'left-0' : '-left-100'}`}>
+      <div className={`menu-list-container flex flex-row-reverse z-20 justify-between  bg-slate-800 ${isMenuOpen ? 'left-0' : '-left-100'}`}>
         <div className="cross-container flex justify-end mt-4 me-3">
           <RxCross1 className='text-4xl text-sky-700 hover:text-sky-500' onClick={() => setIsMenuOpen(!isMenuOpen)}/>
         </div>
