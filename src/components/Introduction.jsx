@@ -40,7 +40,7 @@ const Introduction = () => {
   // }, []);
 
   return (
-    <section className='intro-section-container flex-col  flex justify-around h-[65vh] items-center '>
+    <section className='intro-section-container flex-col  flex justify-around h-[80vh] items-center '>
       <div className='intro-section flex flex-col items-center'>
           <figure className={`intro-img-container`}>
               <img src={programming} alt="intro-image" />
