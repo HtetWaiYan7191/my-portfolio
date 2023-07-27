@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import './App.css';
 import Introduction from './components/Introduction';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Introduction/>
       <AboutMe/>
+      <Skills/>
     </div>
   )
 }
