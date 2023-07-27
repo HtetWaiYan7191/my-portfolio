@@ -3,7 +3,7 @@ import "../styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section className='about-me-container h-[100vh]'>
+    <section className='about-me-container h-[60vh]'>
       <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>About Me</h2>
       <div className='about-me-card p-5 mt-5'>
         <p className='text-justify text-gray-300 para-1 '>
@@ -17,7 +17,7 @@ const AboutMe = () => {
         APIs and web pages.
         </p>
 
-        <button class="bg-sky-500 hover:bg-sky-700 text-white font-bold py-1 px-2 mt-5">
+        <button class="bg-slate-900  text-sky-500 font-bold py-1 px-2 mt-5">
             Resume
         </button>
       </div>

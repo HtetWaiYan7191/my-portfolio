@@ -64,9 +64,6 @@ const Introduction = () => {
             </div>
              </a>
       </div>
-
-
-
     </section>
   )
 }
