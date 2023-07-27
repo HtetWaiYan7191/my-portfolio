@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`py-4 ${isMenuOpen ? `bg-inherit` : `bg-slate-900`}`}>
+    <nav className={`py-4 ${isMenuOpen ? `bg-inherit` : `bg-slate-900`} fixed w-[100%] z-30`}>
       <div className={`mobile-menu-bar md:hidden flex justify-end ${isMenuOpen ? `opacity-0` : `flex`}`}>
         <BiMenuAltRight className='text-sky-500 text-5xl me-2' onClick={() => setIsMenuOpen(!isMenuOpen)}/>
       </div>
