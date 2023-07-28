@@ -14,7 +14,7 @@ const Skills = () => {
       setCurrentStack(stack);
     }
   return (
-    <section className='skill-section-container h-[100vh]'>
+    <section className='skill-section-container h-[80vh]'>
       <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>TECH STACK</h2>
       <div className='skill-section my-10 '>
            <div className='skill-button-container flex justify-evenly w-[90%] mx-auto items-center'>
