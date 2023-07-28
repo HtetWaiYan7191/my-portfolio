@@ -79,11 +79,6 @@ const technologies = [
       name: 'Figma',
       icon: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg',
     },
-    {
-      stack: 'tools',
-      name: 'Postman',
-      icon: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
-    },
   ];
 
   export default technologies;
