@@ -8,6 +8,7 @@ const projects = [
         image: spaceTraveler,
         sourceLink: '',
         liveLink:'',
+        techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
     },
 
     {   
@@ -17,15 +18,18 @@ const projects = [
         image: pokemon,
         sourceLink: '',
         liveLink:'',
+        techStack: ['Frontend', 'JavaScript'],
     },
 
     {   
         id: 3,
         name: 'Weather App',
         description: 'lorem',
-        image: spaceTravelerMissions,
+        image: spaceTraveler,
         sourceLink: '',
         liveLink:'',
+        techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
+
     },
 
     {   
@@ -35,6 +39,7 @@ const projects = [
         image: foodGallery,
         sourceLink: '',
         liveLink:'',
+        techStack:['Frontend','React','JavaScript'],
     },
 
     {   
@@ -44,6 +49,7 @@ const projects = [
         image: bookStore,
         sourceLink: '',
         liveLink:'',
+        techStack:['Frontend','React','JavaScript']
     },
 
     {   
@@ -53,6 +59,7 @@ const projects = [
         image: mathMagicians,
         sourceLink: '',
         liveLink:'',
+        techStack:['Frontend','React','JavaScript']
     },
 
     {   
@@ -62,6 +69,7 @@ const projects = [
         image: foodGallery,
         sourceLink: '',
         liveLink:'',
+        techStack: ['Frontend', 'JavaScript'],
     },
 
     {   
@@ -71,6 +79,8 @@ const projects = [
         image: leaderBoard,
         sourceLink: '',
         liveLink:'',
+        techStack: ['Frontend', 'JavaScript'],
+
     },
 
     {   
@@ -80,6 +90,7 @@ const projects = [
         image: todolist,
         sourceLink: '',
         liveLink:'',
+        techStack: ['Frontend', 'JavaScript'],
     },
 ]
 
