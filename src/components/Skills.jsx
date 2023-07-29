@@ -19,7 +19,7 @@ const Skills = () => {
       <div className='skill-section my-10 '>
            <div className='skill-button-container flex justify-evenly w-[90%] mx-auto items-center'>
             {techStacks.map((stack) => (
-                <button type="button" key={stack} className={` px-3 capitalize ${currentStack === stack ? `bg-slate-900 text-sky-500` : `text-white`}  py-2  font-semibold`} onClick={() => handleClick(stack)}>{stack}</button>
+                <button type="button" key={stack} className={` px-3 capitalize rounded-sm ${currentStack === stack ? `bg-slate-900 text-sky-500` : `text-white`}  py-2  font-semibold`} onClick={() => handleClick(stack)}>{stack}</button>
             ))}
            </div>
       </div>
