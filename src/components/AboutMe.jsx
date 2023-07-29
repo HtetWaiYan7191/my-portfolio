@@ -17,7 +17,7 @@ const AboutMe = () => {
         APIs and web pages.
         </p>
 
-        <button class="bg-slate-900  text-sky-500 font-bold py-1 px-2 mt-5">
+        <button className="bg-slate-900  text-sky-500 font-bold py-1 px-2 mt-5">
             Resume
         </button>
       </div>
