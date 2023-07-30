@@ -6,7 +6,6 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 
-
 const App = () => {
   return (
     <div>
