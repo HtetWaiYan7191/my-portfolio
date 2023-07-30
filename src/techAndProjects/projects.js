@@ -1,4 +1,5 @@
-import {foodGallery,  mathMagicians, bookStore, pokemon, spaceTraveler, leaderBoard, todolist, spaceTravelerMissions} from '../assets/index.js';
+import {bookStore, foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
+    ,spaceMission, spaceTravelerAbout, spaceTravelerHome,leaderBoardMain, todolistHome} from '../assets/index.js';
 
 const projects = [
     {   
@@ -10,6 +11,7 @@ const projects = [
         liveLink:'',
         techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[spaceTravelerHome, spaceMission, spaceTravelerAbout]
     },
 
     {   
@@ -21,6 +23,7 @@ const projects = [
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[pokemonHome, pokemonComments, pokemonReservations]
     },
 
     {   
@@ -32,6 +35,7 @@ const projects = [
         liveLink:'',
         techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[spaceTravelerHome, spaceMission, spaceTravelerAbout]
 
     },
 
@@ -44,6 +48,7 @@ const projects = [
         liveLink:'',
         techStack:['Frontend','React','JavaScript'],
         cardOpen: false,
+        carouselImage:[mealGalleryHome, mealGalleryComments]
     },
 
     {   
@@ -55,6 +60,7 @@ const projects = [
         liveLink:'',
         techStack:['Frontend','React','JavaScript'],
         cardOpen: false,
+        carouselImage:[bookStoreDark, bookStoreLight]
     },
 
     {   
@@ -66,6 +72,7 @@ const projects = [
         liveLink:'',
         techStack:['Frontend','React','JavaScript'],
         cardOpen: false,
+        carouselImage:[mathMagiciansHome, mathMagicians_calculator, mathMagiciansQuote]
     },
 
     {   
@@ -77,6 +84,7 @@ const projects = [
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[foodGalleryHome, foodGalleryDetails]
     },
 
     {   
@@ -88,6 +96,7 @@ const projects = [
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[leaderBoardMain]
 
     },
 
@@ -100,6 +109,7 @@ const projects = [
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
         cardOpen: false,
+        carouselImage:[todolistHome]
     },
 ]
 
