@@ -1,16 +1,35 @@
-import React from 'react'
+import React, {useState} from 'react'
 import projects from '../techAndProjects/projects'
 import ProjectCard from './ProjectCard'
+import PopUpContainer from './PopUpContainer';
+
 
 const Projects = () => {
+  const [openPopCard, setOpenPopCard] = useState(false);
+  const [popUpId, setPopUpId] = useState(1);
+
+  const popUpProject = projects.filter((project) => project.id === popUpId);
+
+  const handlePopUp = (id) => {
+    setPopUpId(id)
+    setOpenPopCard(!openPopCard);
+  }
   return (
-    <section className='project-section-container h-[150vh]'>
+    <section className='project-section-container relative h-[150vh]'>
       <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>Recent Work</h2>
         <div className='project-section grid grid-cols-1 gap-10 my-9'>
             {
-                projects.map((project) => <ProjectCard key={project.id} project={project}/> )
+                projects.map((project) => <ProjectCard key={project.id} project={project} handlePopUp={handlePopUp} openPopCard={openPopCard}/> )
             }
         </div>
+
+            
+                  {/* popup */}
+                  { openPopCard && (
+                    <PopUpContainer popUpProject={popUpProject} setOpenPopCard={setOpenPopCard}/>
+                  )}
+        
+
     </section>
   )
 }
