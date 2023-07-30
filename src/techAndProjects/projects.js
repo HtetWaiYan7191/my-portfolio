@@ -9,6 +9,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -19,6 +20,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -29,6 +31,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
+        cardOpen: false,
 
     },
 
@@ -40,6 +43,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack:['Frontend','React','JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -49,7 +53,8 @@ const projects = [
         image: bookStore,
         sourceLink: '',
         liveLink:'',
-        techStack:['Frontend','React','JavaScript']
+        techStack:['Frontend','React','JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -59,7 +64,8 @@ const projects = [
         image: mathMagicians,
         sourceLink: '',
         liveLink:'',
-        techStack:['Frontend','React','JavaScript']
+        techStack:['Frontend','React','JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -70,6 +76,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
+        cardOpen: false,
     },
 
     {   
@@ -80,6 +87,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
+        cardOpen: false,
 
     },
 
@@ -91,6 +99,7 @@ const projects = [
         sourceLink: '',
         liveLink:'',
         techStack: ['Frontend', 'JavaScript'],
+        cardOpen: false,
     },
 ]
 
