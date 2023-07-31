@@ -1,0 +1,11 @@
+.pop-up-card-container {
+    transition: all 0.3s ease;
+  }
+
+.show { 
+    transform: translateX(0%);
+}
+
+.hide {
+    transform: translateX(-100%);
+}
