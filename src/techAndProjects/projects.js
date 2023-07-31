@@ -5,7 +5,7 @@ const projects = [
     {   
         id: 1,
         name: 'Space Travel Hub',
-        description: '',
+        description: 'The Space Traveler Hub is an app built with React and Redux. On the main page, it displays rockets along with their detailed explanations. The mission page allows users to view available missions. Users are also allowed to reserve missions or join meetings. In the "My Profile" page, users can see the missions they have joined and the rockets they have reserved.',
         image: spaceTraveler,
         sourceLink: '',
         liveLink:'',
