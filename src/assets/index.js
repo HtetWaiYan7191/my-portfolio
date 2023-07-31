@@ -28,6 +28,14 @@ import spaceMission from './carouselImages/spaceTravelerMissions.png'
 import leaderBoardMain from './carouselImages/leaderBoardMain.png'
 import todolistHome from './carouselImages/todolistHome.png'
 
+//testimonials profile 
+
+import adeyemi from './profileImages/adeyemi.jpg'
+import ansar from './profileImages/ansar.jpg'
+import fatima from './profileImages/fatima.jpg'
+import ichsan from './profileImages/ichsan.jpg'
+import kiko from './profileImages/kiko.jpg'
+
 export {bookStore, foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todolistHome}
+,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todolistHome, adeyemi, kiko, ichsan, ansar, fatima}
