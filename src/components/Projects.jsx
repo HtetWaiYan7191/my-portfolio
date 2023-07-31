@@ -22,12 +22,10 @@ const Projects = () => {
                 projects.map((project) => <ProjectCard key={project.id} project={project} handlePopUp={handlePopUp} openPopCard={openPopCard}/> )
             }
         </div>
-
-            
                   {/* popup */}
-                  { openPopCard && (
-                    <PopUpContainer popUpProject={popUpProject} setOpenPopCard={setOpenPopCard}/>
-                  )}
+                 
+                    <PopUpContainer openPopCard={openPopCard} popUpProject={popUpProject} setOpenPopCard={setOpenPopCard}/>
+                 
         
 
     </section>
