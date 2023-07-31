@@ -1,0 +1,51 @@
+.input-box input, .input-box textarea {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: inherit;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.input-box input:valid ~span,
+.input-box input:focus ~span
+ {
+    color:  rgb(14 165 233);
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.8em;
+    padding: 0 10px;
+    background-color: rgb(15, 23, 42);
+    letter-spacing: 0.2em;
+    /* border-left: 1px solid rgb(14, 165, 233);
+    border-right: 1px solid rgb(14, 165, 233); */
+}
+#text-area-span {
+    opacity: 1;
+}
+
+
+.hide-placeholder {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.input-box input:valid,
+.input-box input:focus,
+.input-box textarea:focus
+ {
+    border: 1px solid   rgb(14 165 233);
+}
