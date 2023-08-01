@@ -10,7 +10,7 @@ const PopUpContainer = ({ popUpProject, setOpenPopCard, openPopCard }) => {
 
   return (
     <div
-      className={`pop-up-container fixed  transition-all duration-500 ease  ${
+      className={`pop-up-container fixed md:flex md:justify-center md:items-center  transition-all duration-500 ease  ${
         openPopCard ? `z-40 left-0 top-0 ` : ` left-[-100%] `
       } backdrop-blur-md   w-[100%] h-[100vh]  bg-slate-600/50`}
     >
@@ -19,9 +19,9 @@ const PopUpContainer = ({ popUpProject, setOpenPopCard, openPopCard }) => {
           openPopCard ? "show" : "hide"
         }`}
       >
-        <div className={`max-w-lg bg-slate-900 pt-2 pb-5 `}>
+        <div className={`max-w-lg bg-slate-900 pop-up pt-2 md:pt-0 pb-5 `}>
           <button
-            className=" w-[100%] cross-btn-container flex justify-end"
+            className=" w-[100%] cross-btn-container flex justify-end md:bg-slate/800 md:hover:opacity-50"
             type="button"
             onClick={() => setOpenPopCard(!openPopCard)}
           >
@@ -48,7 +48,7 @@ const PopUpContainer = ({ popUpProject, setOpenPopCard, openPopCard }) => {
           <div className="justify-between flex w-[85%] mx-auto mt-5">
             <a href={popUpProject[0].liveLink} target="blank">
               <button
-                className="border-2 border-sky-500 bg-sky-500/20 text-sky-300 font-bold py-1 px-2 mt-5 rounded-sm"
+                className="border-2 d-button border-sky-500 bg-sky-500/20 md:hover:border-sky-300 md:hover:text-white text-sky-300 font-bold py-1 px-2 mt-5 rounded-sm"
                 type="button"
               >
                 View Live
@@ -56,7 +56,7 @@ const PopUpContainer = ({ popUpProject, setOpenPopCard, openPopCard }) => {
             </a>
             <a href={popUpProject[0].sourceLink} target="blank">
               <button
-                className="border-2 border-sky-500 bg-sky-500/20 text-sky-300 font-bold py-1 px-2 mt-5 rounded-sm"
+                className="border-2 d-button border-sky-500 bg-sky-500/20 md:hover:border-sky-300 md:hover:text-white text-sky-300 font-bold py-1 px-2 mt-5 rounded-sm"
                 type="button"
               >
                 View Source
