@@ -63,6 +63,15 @@
   .d-button:hover {
     transition: all 0.5s ease;
   }
+
+  .d-button:active::before {
+    background-color: hsl(199, 87%, 34%);
+  }
+
+  .d-button:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+  }
 }
 
   
