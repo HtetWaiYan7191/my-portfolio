@@ -1,28 +1,65 @@
-import React from 'react'
+import { useEffect, useState } from "react";
+import React from "react";
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
+  const [isScroll, setIsScroll] = useState(false);
+  useEffect(() => {
+    // Function to handle the scroll event
+    const handleScroll = () => {
+      // Define the point at which the animation should start
+      const startAnimationAt = 200; // Adjust this value as needed
+
+      // Get the scroll position
+      const scrollPosition = window.scrollY;
+
+      // Check if the user has scrolled past the defined point
+      if (scrollPosition > startAnimationAt) {
+        // Add a class to trigger the animation
+        setIsScroll(true);
+      } else {
+        // Remove the class when scrolling back up
+        setIsScroll(false);
+      }
+    };
+    // Add the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <section className='about-me-container h-[60vh]'>
-      <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>About Me</h2>
-      <div className='about-me-card p-5 mt-5'>
-        <p className='text-justify text-gray-300 para-1 '>
-         I am a full-stack developer  with expertise in  <span className='text-effect'>React, Redux, 
-         and Rails </span>to create tailored software solutions for diverse businesses.
+    <section className="about-me-container h-[60vh]" id="about-me-section">
+      <h2
+        className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title transition-all duration-700 ease ${
+          isScroll ? `show` : `leftHide`
+        } `}
+      >
+        About Me
+      </h2>
+      <div className="about-me-card p-5 mt-5">
+        <p className={`text-justify text-gray-300 para-1 transition-all duration-700 ease ${isScroll ? `show` : `rightHide`}`}>
+          I am a full-stack developer with expertise in{" "}
+          <span className="text-effect">React, Redux, and Rails </span>to create
+          tailored software solutions for diverse businesses.
         </p>
 
-        <p className='text-justify text-gray-300 mt-8 para-2 '>
-        Over the past months, I have worked on various projects, 
-        collaborating with developers from around the world to develop 
-        APIs and web pages.
+        <p className={`text-justify text-gray-300 mt-8 para-2 transition-all duration-700 ease ${isScroll ? `show` : `leftHide`}`} >
+          Over the past months, I have worked on various projects, collaborating
+          with developers from around the world to develop APIs and web pages.
         </p>
 
-        <button className="bg-slate-900  text-sky-500 font-bold py-1 px-2 mt-5">
-            Resume
+        <button
+          className={`border-2 border-sky-500 bg-sky-500/20 text-sky-300 font-bold py-1 px-2 mt-5 rounded-sm transition-all duration-700 ease ${isScroll ?`show` : `rightHide`}`}
+          type="button"
+          onClick={() => handlePopUp(project.id)}
+        >
+          Resume
         </button>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
