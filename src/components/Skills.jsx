@@ -17,7 +17,9 @@ const Skills = () => {
   };
   return (
     <section className="skill-section-container h-[80vh]" id="skill-section">
-      <h2 className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title`}>
+      <h2
+        className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title`}
+      >
         TECH STACK
       </h2>
       <div className="skill-section my-10 ">
@@ -28,7 +30,7 @@ const Skills = () => {
               key={stack}
               className={` px-3 capitalize md:text-white/90 md:hover:border-b-sky-400  md:text-xl md:hover:text-sky-400 md:hover:border-b ${
                 currentStack === stack
-                  ? ` md:text-sky-500 text-sky-500 md:transition-all duration-700 ease  ` 
+                  ? ` md:text-sky-500 text-sky-500 md:transition-all duration-700 ease  `
                   : `text-white`
               }  py-2  font-semibold`}
               onClick={() => handleClick(stack)}
@@ -41,24 +43,34 @@ const Skills = () => {
       <div className="skill-image-container md:w-[80%] md:mx-auto grid grid-cols-4 md:grid-cols-8 gap-x-5 gap-y-6">
         {currentStack === "fullstack"
           ? technologies.map((tech) => (
-            <Tilt glareEnable={false} tiltMaxAngleX={30} 
-            tiltMaxAngleY={30} perspective={1000} 
-            >
-              <figure
-                key={tech.icon}
-                className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl md:rounded-br-[30%] md:w-32 md:h-32  bg-slate-900  flex justify-center p-5"
+              <Tilt
+                glareEnable={false}
+                tiltMaxAngleX={30}
+                tiltMaxAngleY={30}
+                perspective={1000}
               >
-                <img src={tech.icon} className="skill-icons" alt="" />
-              </figure>
+                <figure
+                  key={tech.icon}
+                  className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl md:rounded-br-[30%] md:w-32 md:h-32  bg-slate-900  flex justify-center p-5"
+                >
+                  <img src={tech.icon} className="skill-icons" alt="" />
+                </figure>
               </Tilt>
             ))
           : filterTechnologies.map((tech) => (
-            <Tilt glareEnable={false} tiltMaxAngleX={30} 
-            tiltMaxAngleY={30} perspective={1000} 
-            >
-              <figure className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl  bg-slate-900  flex justify-center p-5">
-                <img src={tech.icon} className="skill-icons" alt={tech.stack} />
-              </figure>
+              <Tilt
+                glareEnable={false}
+                tiltMaxAngleX={30}
+                tiltMaxAngleY={30}
+                perspective={1000}
+              >
+                <figure className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl  bg-slate-900  flex justify-center p-5">
+                  <img
+                    src={tech.icon}
+                    className="skill-icons"
+                    alt={tech.stack}
+                  />
+                </figure>
               </Tilt>
             ))}
       </div>
