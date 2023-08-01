@@ -23,8 +23,8 @@ const Carousel = ({children:carouselImage}) => {
       <div className='absolute bottom-3 right-0 left-0'>
         <div className='flex items-center justify-center gap-2'>
             {carouselImage.map((_, i) => (
-              <div key={i} className={`transition-all duration-500 w-2 h-2 bg-slate-900  rounded-full
-                  ${curr === i ? "p-1 bg-sky-500" : "bg-opacity-50"} `} />
+              <div key={i} className={`transition-all duration-500 w-2 h-2   rounded-full
+                  ${curr === i ? "p-1 bg-sky-500" : "bg-opacity-50 bg-slate-900"} `} />
             ))}
         </div>
       </div>
