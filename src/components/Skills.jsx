@@ -30,7 +30,7 @@ const Skills = () => {
               key={stack}
               className={` px-3 capitalize text-white/90 md:hover:border-b-sky-400  md:text-xl md:hover:text-sky-400 md:hover:border-b ${
                 currentStack === stack
-                  ? `  text-sky-500 md:text-sky-500  `
+                  ? `  text-sky-500 md:text-sky-500 `
                   : `text-white`
               }  py-2  font-semibold`}
               onClick={() => handleClick(stack)}
