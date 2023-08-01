@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="hidden md:flex bg-slate-900/50 md:justify-evenly">
-        <ul id="navList" class="list-container text-sky-700 py-2 flex flex-row">
+        <ul id="navList" className="list-container text-sky-700 py-2 flex flex-row">
           <li>
             <a href="#introduction-section" className="hover:text-sky-400">Introduction</a>
           </li>
