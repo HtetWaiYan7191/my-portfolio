@@ -19,7 +19,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className='contact-me-section h-[100vh]'>
+    <section className='contact-me-section h-[100vh]' id='contact-me-section'>
       <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>
         Contact Me
       </h2>

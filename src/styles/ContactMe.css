@@ -72,7 +72,7 @@
     z-index: 1;
     background: linear-gradient(0deg, transparent, transparent, rgb(14 165 233), rgb(14 165 233), rgb(14 165 233));
     transform-origin: bottom right;
-    animation: animate 6s linear infinite ; 
+    animation: animate 3s linear infinite ; 
 }
 
 .box::after {
@@ -85,8 +85,8 @@
     z-index: 1;
     background: linear-gradient(0deg, transparent, transparent, #ff2770, #ff2770, #ff2770);
     transform-origin: bottom right;
-    animation: animate 6s linear infinite ; 
-    animation-delay: -3s;
+    animation: animate 3s linear infinite ; 
+    animation-delay: -1s;
 }
 
 

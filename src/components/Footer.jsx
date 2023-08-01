@@ -10,11 +10,11 @@ const Footer = () => {
     <section className='footer-section py-10'>
       <div className='footer-container border-t'>
       <ul className='social-links flex mt-6 justify-center items-center'>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href=''><BsLinkedin/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href=''><BsInstagram/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href=''><BsGithub/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href=''><FaAngellist/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href=''><BsFacebook/></a></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href='https://www.linkedin.com/in/htet-wai-yan19/' target='blank'><BsLinkedin/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href='https://www.instagram.com/1918hwy/' target='blank'><BsInstagram/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href='https://github.com/HtetWaiYan7191' target='blank'><BsGithub/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href='https://wellfound.com/u/htet-wai-yan-1' target='blank'><FaAngellist/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium'><a href='https://www.facebook.com/profile.php?id=100010329042751' target='blank'><BsFacebook/></a></li>
       </ul>
       </div>
     </section>
