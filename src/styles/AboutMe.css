@@ -21,3 +21,15 @@
 .resume-btn {
     transition: all 0.3s ease;
 }
+
+.show {
+    transform: translateX(0%);
+}
+
+.rightHide {
+    transform: translateX(300%);
+}
+
+.leftHide {
+    transform: translateX(-150%);
+}
