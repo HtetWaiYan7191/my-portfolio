@@ -28,9 +28,9 @@ const Skills = () => {
             <button
               type="button"
               key={stack}
-              className={` px-3 capitalize md:text-white/90 md:hover:border-b-sky-400  md:text-xl md:hover:text-sky-400 md:hover:border-b ${
+              className={` px-3 capitalize text-white/90 md:hover:border-b-sky-400  md:text-xl md:hover:text-sky-400 md:hover:border-b ${
                 currentStack === stack
-                  ? ` md:text-sky-500 text-sky-500 md:transition-all duration-700 ease  `
+                  ? `  text-sky-500 md:text-sky-500  `
                   : `text-white`
               }  py-2  font-semibold`}
               onClick={() => handleClick(stack)}
