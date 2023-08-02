@@ -30,7 +30,7 @@ const AboutMe = () => {
   // }, []);
 
   return (
-    <section className="about-me-container h-[60vh] md:h-[90vh] " id="about-me-section">
+    <section className="about-me-container h-[60vh] md:h-[80vh] " id="about-me-section">
       <h2
         className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title transition-all duration-700 ease 
          `}
