@@ -43,6 +43,7 @@ const Skills = () => {
         {currentStack === "fullstack"
           ? technologies.map((tech) => (
               <Tilt
+                key={tech.id}
                 glareEnable={false}
                 tiltMaxAngleX={30}
                 tiltMaxAngleY={30}
@@ -58,6 +59,7 @@ const Skills = () => {
             ))
           : filterTechnologies.map((tech) => (
               <Tilt
+                 key={tech.id}
                 glareEnable={false}
                 tiltMaxAngleX={30}
                 tiltMaxAngleY={30}
