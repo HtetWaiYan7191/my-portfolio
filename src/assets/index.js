@@ -28,7 +28,7 @@ import spaceTravelerHome from './carouselImages/spaceTravelerHome.png'
 import spaceTravelerAbout from './carouselImages/spaceTravelerAbout.png'
 import spaceMission from './carouselImages/spaceTravelerMissions.png'
 import leaderBoardMain from './carouselImages/leaderBoardMain.png'
-import todolistHome from './carouselImages/todolistHome.png'
+import todoListHome from './carouselImages/todoListHome.png'
 import weatherMainPc from './carouselImages/weatherMainPc.png'
 import weatherDetailPc from './carouselImages/weatherDetailPc.png'
 import weatherMainMobile from './carouselImages/weatherMainMobile.png'
@@ -44,5 +44,5 @@ import kiko from './profileImages/kiko.jpg'
 
 export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todolistHome, adeyemi, kiko, ichsan, ansar, fatima,
+,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todoListHome, adeyemi, kiko, ichsan, ansar, fatima,
 weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc}

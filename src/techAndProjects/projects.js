@@ -1,5 +1,5 @@
 import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-    ,spaceMission, spaceTravelerAbout,showCaseMealGallery, spaceTravelerHome,leaderBoardMain, todolistHome} from '../assets/index.js';
+    ,spaceMission, spaceTravelerAbout,showCaseMealGallery, spaceTravelerHome,leaderBoardMain, todoListHome} from '../assets/index.js';
 
 const projects = [
     {   
@@ -109,7 +109,7 @@ const projects = [
         liveLink:'https://htetwaiyan7191.github.io/testing-todolist/',
         techStack: ['Frontend', 'JavaScript'],
         cardOpen: false,
-        carouselImage:[todolistHome]
+        carouselImage:[todoListHome]
     },
 ]
 
