@@ -155,7 +155,7 @@ Feel free to check the [issues page](https://github.com/HtetWaiYan7191/my-portfo
 
 ## 🙏 Acknowledgments
 
-- I would like to thank Microverse for this opportunity. Design Inspiration from [Ko Kaung Myat Kyaw](https://github.com/Rhaegar121), [Ko Htet Naing](https://github.com/rex-9), [Animate login Form](https://www.youtube.com/watch?v=rWQeqH526KA) , [inputField animation](https://www.youtube.com/watch?v=BMphVl9suxA), 
+- I would like to thank Microverse for this opportunity. Design Credit to [Ko Kaung Myat Kyaw](https://github.com/Rhaegar121), [Ko Htet Naing](https://github.com/rex-9), [Animate login Form](https://www.youtube.com/watch?v=rWQeqH526KA) , [inputField animation](https://www.youtube.com/watch?v=BMphVl9suxA), 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
