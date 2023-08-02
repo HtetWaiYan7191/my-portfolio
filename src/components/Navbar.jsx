@@ -34,22 +34,22 @@ const Navbar = () => {
           />
         </div>
         <ul className="list-container text-sky-700 font-semibold py-5 flex flex-col ">
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#introduction-section">Introduction</a>
           </li>
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#about-me-section">About Me</a>
           </li>
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#skill-section">Skills</a>
           </li>
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#project-section">Projects</a>
           </li>
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#testimonial-section">Testimonials</a>
           </li>
-          <li className=" hover:text-sky-500">
+          <li className=" hover:text-sky-500" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <a href="#contact-me-section">Contact</a>
           </li>
         </ul>

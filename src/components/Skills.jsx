@@ -15,7 +15,7 @@ const Skills = () => {
     setCurrentStack(stack);
   };
   return (
-    <section className="skill-section-container h-[80vh] md:h-[100vh] md:pt-36" id="skill-section">
+    <section className="skill-section-container h-[80vh] md:h-[100vh] md:pt-36 pt-32" id="skill-section">
       <h2
         className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title`}
       >

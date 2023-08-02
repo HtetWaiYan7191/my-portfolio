@@ -7,7 +7,7 @@ import { BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <section className='footer-section py-10 md:pt-36'>
+    <section className='footer-section py-10 md:pt-36 pt-32'>
       <div className='footer-container border-t'>
       <ul className='social-links flex mt-6 justify-center items-center'>
         <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://www.linkedin.com/in/htet-wai-yan19/' target='blank'><BsLinkedin/></a ></li>
