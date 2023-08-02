@@ -26,7 +26,7 @@ const ContactMe = () => {
       <div className='contact-me my-10 flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto justify-around'>
         <div className='ending-text mx-auto  md:flex-1 md:px-20 '>
           <p className='text-white/90 text-sm text-center font-semibold my-10  md:text-lg  md:my-5'>
-            I am continuously interested in learning about fresh projects and exploring potential
+            I am  interested in learning about fresh projects and exploring potential
             collaborations. So don't hesitate to reach out and start a conversation. I'm here
             to assist you in any way I can.
           </p>
