@@ -1,0 +1,11 @@
+@media screen and (min-width: 375px) {
+  .skill-icons {
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skill-icons {
+    width: 40px;
+  }
+}

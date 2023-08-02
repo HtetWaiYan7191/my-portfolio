@@ -1,0 +1,86 @@
+
+@media screen and (min-width: 375px) {
+  .about-me-title {
+    position: relative;
+  }
+
+  .text-effect {
+    color: hsl(199, 89%, 48%);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .about-me-title::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(199, 89%, 48%);
+    height: 2px;
+    width: 30%;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .resume-btn {
+    transition: all 0.3s ease;
+  }
+
+  .show {
+    transform: translateX(0%);
+  }
+
+  .rightHide {
+    transform: translateX(300%);
+  }
+
+  .leftHide {
+    transform: translateX(-150%);
+  }
+
+  .d-button {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .d-button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: hsl(199, 89%, 48%);
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s ease;
+  }
+
+  .d-button:hover::before {
+    left: 0;
+  }
+
+  .d-button:hover {
+    transition: all 0.5s ease;
+  }
+
+  .d-button:active::before {
+    background-color: hsl(199, 87%, 34%);
+  }
+
+  .d-button:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .about-me-title::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(199, 89%, 48%);
+    height: 2px;
+    width: 15%;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
