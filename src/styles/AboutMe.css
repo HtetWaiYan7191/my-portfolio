@@ -1,19 +1,16 @@
 
-
-  @media  screen and (min-width: 375px) {
-    
-.about-me-title {
+@media screen and (min-width: 375px) {
+  .about-me-title {
     position: relative;
-}
+  }
 
-
-.text-effect {
-    color: hsl(199, 89%, 48%) ;
+  .text-effect {
+    color: hsl(199, 89%, 48%);
     font-weight: bold;
     font-size: 1.2rem;
-}
+  }
 
-.about-me-title::after {
+  .about-me-title::after {
     content: '';
     position: absolute;
     background-color: hsl(199, 89%, 48%);
@@ -22,21 +19,21 @@
     bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
-}
+  }
 
-.resume-btn {
+  .resume-btn {
     transition: all 0.3s ease;
-}
+  }
 
-.show {
+  .show {
     transform: translateX(0%);
   }
-  
-.rightHide {
+
+  .rightHide {
     transform: translateX(300%);
   }
-  
-.leftHide {
+
+  .leftHide {
     transform: translateX(-150%);
   }
 
@@ -75,17 +72,15 @@
   }
 }
 
-  
-  @media  screen and (min-width: 765px) {
-    .about-me-title::after {
-        content: '';
-        position: absolute;
-        background-color: hsl(199, 89%, 48%);
-        height: 2px;
-        width: 15%;
-        bottom: -30%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+@media screen and (min-width: 765px) {
+  .about-me-title::after {
+    content: '';
+    position: absolute;
+    background-color: hsl(199, 89%, 48%);
+    height: 2px;
+    width: 15%;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
   }
-
+}

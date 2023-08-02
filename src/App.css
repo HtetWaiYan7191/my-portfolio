@@ -1,7 +1,5 @@
 
-
-
-@media screen and (min-width:375px) {
+@media screen and (min-width: 375px) {
   .menu-list-container {
     height: 100vh;
     width: 100%;
@@ -10,22 +8,22 @@
     left: -100%;
     transition: all 0.3s ease;
   }
-  
+
   .mobile-menu-bar {
     transition: all 0.4s ease;
   }
-  
+
   .list-container li {
     padding: 1.3rem;
     position: relative;
   }
-  
-  .list-container li:hover{
+
+  .list-container li:hover {
     /* text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.7); */
     font-weight: bold;
     transition: all 0.5s ease;
   }
-  
+
   .list-container li a::after {
     content: '';
     position: absolute;
@@ -37,23 +35,21 @@
     padding: 0 10px;
     transition: all 0.5s ease;
   }
-  
-  
+
   .list-container li a:hover::after {
     width: 108%;
     height: 3px;
   }
-  
-  .list-container li a  {
-    font-size:1.5rem;
+
+  .list-container li a {
+    font-size: 1.5rem;
     letter-spacing: 4px;
     position: relative;
   }
 }
 
-@media screen and (min-width:768px) {
-  .list-container li a  {
-    font-size:1rem;
+@media screen and (min-width: 768px) {
+  .list-container li a {
+    font-size: 1rem;
   }
-
 }

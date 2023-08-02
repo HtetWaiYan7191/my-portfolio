@@ -10,7 +10,6 @@ const Skills = () => {
   const filterTechnologies = technologies.filter(
     (tech) => tech.stack === currentStack
   );
-  console.log(filterTechnologies);
 
   const handleClick = (stack) => {
     setCurrentStack(stack);
@@ -24,10 +23,10 @@ const Skills = () => {
       </h2>
       <div className="skill-section my-10 ">
         <div className="skill-button-container flex justify-evenly md:justify-center w-[90%] mx-auto items-center">
-          {techStacks.map((stack) => (
+          {techStacks.map((stack,id) => (
             <button
               type="button"
-              key={stack}
+              key={id}
               className={` px-3 capitalize text-white/90  md:text-xl md:hover:text-sky-400  ${
                 currentStack === stack
                   ? ` text-sky-400 border-sky-500 md:text-sky-500 border d-button `

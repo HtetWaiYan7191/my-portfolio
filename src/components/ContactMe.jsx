@@ -33,7 +33,7 @@ const ContactMe = () => {
         </div>
         <div className='box  md:my-5 md:flex-1 mx-auto md:mx-0'>
           <span className='borderLine'></span>
-        <form className='form-container bg-slate-900  z-20  py-10  px-5 rounded-md mx-auto '>
+        <form className='form-container bg-slate-900  z-20  py-10  px-5 rounded-md mx-auto ' action="https://formspree.io/f/mknayjll" method='POST'>
           <h2 className='text-white/90 text-center text-2xl'>Keep In Touch</h2>
           <div className={`input-box my-7 relative w-[100%] mx-auto `}>
             <input type='text' className='w-[100%]' required value={name} onChange={handleNameChange} />

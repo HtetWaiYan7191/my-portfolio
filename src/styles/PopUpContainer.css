@@ -1,29 +1,29 @@
 .pop-up-card-container {
-    transition: all 0.3s ease;
-  }
+  transition: all 0.3s ease;
+}
 
-.show { 
-    transform: translateX(0%);
+.show {
+  transform: translateX(0%);
 }
 
 .hide {
-    transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
-@media  screen and (min-width: 768px) {
-    ::-webkit-scrollbar {
-        width: 0.3em;
-        background-color: inherit;
-      }
-      
-      /* Hide the scrollbar thumb */
-      ::-webkit-scrollbar-thumb {
-        background-color: #0EA5E9;
-        height: 0.3rem;
-      }
-      
-      /* Hide the scrollbar track */
-      ::-webkit-scrollbar-track {
-        background-color: transparent;
-      }
+@media screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0.3em;
+    background-color: inherit;
+  }
+
+  /* Hide the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #0ea5e9;
+    height: 0.3rem;
+  }
+
+  /* Hide the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
 }
