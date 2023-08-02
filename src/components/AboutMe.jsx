@@ -3,34 +3,9 @@ import React from "react";
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
-  // const [isScroll, setIsScroll] = useState(false);
-  // useEffect(() => {
-  //   // Function to handle the scroll event
-  //   const handleScroll = () => {
-  //     // Define the point at which the animation should start
-  //     const startAnimationAt = 100; // Adjust this value as needed
-
-  //     // Get the scroll position
-  //     const scrollPosition = window.scrollY;
-
-  //     // Check if the user has scrolled past the defined point
-  //     if (scrollPosition > startAnimationAt) {
-  //       // Add a class to trigger the animation
-  //       setIsScroll(true);
-  //     } else {
-  //       // Remove the class when scrolling back up
-  //       setIsScroll(false);
-  //     }
-  //   };
-  //   // Add the scroll event listener
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
-    <section className="about-me-container h-[60vh] md:h-[80vh] " id="about-me-section">
+    <section className="about-me-container h-[60vh] md:h-[80vh] lg:h-[100vh] md:pt-36 " id="about-me-section">
       <h2
         className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title transition-all duration-700 ease 
          `}

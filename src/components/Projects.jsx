@@ -15,7 +15,7 @@ const Projects = () => {
     setOpenPopCard(!openPopCard);
   }
   return (
-    <section className='project-section-container relative h-[240vh] md:h-[130vh] lg:h-[150vh]' id='project-section'>
+    <section className='project-section-container relative h-[240vh] md:h-[130vh] lg:h-[150vh] md:pt-36' id='project-section'>
       <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>Recent Work</h2>
         <div className='project-section grid grid-cols-1 md:grid-cols-3 md:gap-10 md:w-[90%] md:mx-auto gap-10 my-9'>
             {
