@@ -5,6 +5,18 @@
     transition: all 0.4s ease;
 }
 
+#introduction-section {
+    /* background-image: url('../assets/backgroundImages/star-background.avif'); */
+    background: linear-gradient(to right, rgb(30 41 59), rgb(39, 54, 93));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 2rem;
+    /* border-bottom-right-radius: 35%;
+    border-top-left-radius: 40%; */
+    animation: animate-section 3s  infinite;
+}
 
 .intro-img-container img {
     width: 150px;
@@ -100,4 +112,27 @@
     100% {
         border-color:#0EA5E9;
     }
+
+
 }
+
+@keyframes animate-section {
+    0% {
+        border-bottom-right-radius: 35%;
+        border-top-left-radius: 40%;
+    }
+
+    50% {
+        border-bottom-right-radius: 15%; /* Modified value */
+        border-top-left-radius: 60%;    /* Modified value */
+    }
+
+    100% {
+        border-bottom-right-radius: 35%;
+        border-top-left-radius: 40%;
+    }
+}
+
+  
+
+
