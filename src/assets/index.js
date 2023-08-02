@@ -8,6 +8,8 @@ import pokemon from './images/pokemon.png'
 import spaceTraveler from './images/spaceTraveler.png'
 import spaceTravelerMissions from './images/spaceTravelerMissions.png'
 import spaceTravelerProfile from './images/spaceTravelerProfile.png'
+import weatherAppProject from './images/weatherAppProject.png'
+import showCaseMealGallery from './images/showCaseMealGallary.png'
 
 //Carousel Images 
 import mathMagiciansHome from './carouselImages/mathMagicians_home.png'
@@ -27,6 +29,10 @@ import spaceTravelerAbout from './carouselImages/spaceTravelerAbout.png'
 import spaceMission from './carouselImages/spaceTravelerMissions.png'
 import leaderBoardMain from './carouselImages/leaderBoardMain.png'
 import todolistHome from './carouselImages/todolistHome.png'
+import weatherMainPc from './carouselImages/weatherMainPc.png'
+import weatherDetailPc from './carouselImages/weatherDetailPc.png'
+import weatherMainMobile from './carouselImages/weatherMainMobile.png'
+import weatherDetailMobile from './carouselImages/weatherDetailMobile.png'
 
 //testimonials profile 
 
@@ -36,6 +42,7 @@ import fatima from './profileImages/fatima.jpg'
 import ichsan from './profileImages/ichsan.jpg'
 import kiko from './profileImages/kiko.jpg'
 
-export {bookStore, foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
+export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todolistHome, adeyemi, kiko, ichsan, ansar, fatima}
+,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todolistHome, adeyemi, kiko, ichsan, ansar, fatima,
+weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc}
