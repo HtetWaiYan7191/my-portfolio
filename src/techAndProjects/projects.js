@@ -1,5 +1,5 @@
-import {bookStore, foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-    ,spaceMission, spaceTravelerAbout, spaceTravelerHome,leaderBoardMain, todolistHome} from '../assets/index.js';
+import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
+    ,spaceMission, spaceTravelerAbout,showCaseMealGallery, spaceTravelerHome,leaderBoardMain, todolistHome} from '../assets/index.js';
 
 const projects = [
     {   
@@ -29,13 +29,13 @@ const projects = [
     {   
         id: 3,
         name: 'Weather App',
-        description: 'lorem',
-        image: spaceTraveler,
+        description: 'The weather app is a user-friendly application that provides real-time weather information for specific locations. Users can search for different cities and view the corresponding weather information. It is a mobile-responsive website primarily built using React and Redux.',
+        image: weatherAppProject,
         sourceLink: 'https://github.com/HtetWaiYan7191/weather-app',
         liveLink:'https://weather-app-8t4o.onrender.com',
         techStack:['Frontend', 'React', 'Redux', 'JavaScript'],
         cardOpen: false,
-        carouselImage:[spaceTravelerHome, spaceMission, spaceTravelerAbout]
+        carouselImage:[weatherMainPc, weatherDetailPc, weatherMainMobile, weatherDetailMobile]
 
     },
 
@@ -43,7 +43,7 @@ const projects = [
         id: 4,
         name: 'Meal Gallery',
         description: 'A meal gallery website is an online platform dedicated to showcasing a vast collection of food-related images, recipes, culinary creations, and gastronomic experiences. It serves as a visual feast for food enthusiasts, offering a visually appealing and inspiring journey through the world of food.',
-        image: foodGallery,
+        image: showCaseMealGallery,
         sourceLink: 'https://github.com/HtetWaiYan7191/meal-gallery',
         liveLink:'https://htetwaiyan7191.github.io/meal-gallery/dist',
         techStack:['Frontend','React','JavaScript'],
