@@ -51,7 +51,7 @@ const Skills = () => {
               >
                 <figure
                   key={tech.icon}
-                  className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl md:rounded-br-[30%] md:w-32 md:h-32  bg-slate-900  flex justify-center p-5"
+                  className="border-slate-900   shadow-sky-600  md:shadow-blue-300 md:shadow-md md:hover:shadw-blue-500 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl md:rounded-br-[30%] md:w-32 md:h-32  bg-slate-900  flex justify-center p-5"
                 >
                   <img src={tech.icon} className="skill-icons" alt="" />
                 </figure>
@@ -64,7 +64,7 @@ const Skills = () => {
                 tiltMaxAngleY={30}
                 perspective={1000}
               >
-                <figure className="border-slate-900 md:hover:border-t-purple-500 md:hover:border-t-2 md:hover:border-r-sky-400 shadow-sky-600 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl  bg-slate-900  flex justify-center p-5">
+                <figure className="border-slate-900  shadow-sky-600 md:shadow-blue-300 md:hover:shadow-blue-500 hover:shadow-sky-600/50 shadow-md border rounded-br-3xl  bg-slate-900  flex justify-center p-5">
                   <img
                     src={tech.icon}
                     className="skill-icons"
