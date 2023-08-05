@@ -9,7 +9,6 @@ const Skills = () => {
   const [currentStack, setCurrentStack] = useState("fullstack");
   const ref = useRef(null);
   const allSkillsRef = useRef(null);
-  const filterSkillsRef = useRef(null);
   const isInView = useInView(ref, {once:false});
   const controls = useAnimation();
 
