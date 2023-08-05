@@ -1,10 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../styles/Skills.css";
 import technologies from "../techAndProjects/technologies";
 import Tilt from "react-parallax-tilt";
+import { motion, useInView, useAnimation } from "framer-motion";
+
 
 const Skills = () => {
   const [currentStack, setCurrentStack] = useState("fullstack");
+  const ref = useRef(null);
+  const allSkillsRef = useRef(null);
+  const isInView = useInView(ref, {once:false});
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if(isInView) {
+      controls.start('visible')
+    }
+  }, [isInView])
+
 
   const techStacks = ["fullstack", "frontend", "backend", "tools"];
   const filterTechnologies = technologies.filter(
@@ -16,14 +29,39 @@ const Skills = () => {
   };
   return (
     <section className="skill-section-container h-[80vh] md:h-[100vh] md:pt-36 pt-32" id="skill-section">
+      <motion.div 
+      variants={{
+        hidden: {opacity:0, y:-75},
+        visible: {opacity:1, y:0}
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{duration: 0.5}}
+      ref={ref}
+      >
       <h2
         className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title`}
       >
         TECH STACK
       </h2>
+      </motion.div>
       <div className="skill-section my-10 ">
         <div className="skill-button-container flex justify-evenly md:justify-center w-[90%] mx-auto items-center">
           {techStacks.map((stack,id) => (
+           <motion.div
+           key={id}
+           variants={{
+             hidden: { opacity: 0, x: -50 }, // Slide the buttons from left to right
+             visible: {
+               opacity: 1,
+               x: 0,
+               transition: { delay: id * 0.1, duration: 0.5 }, // Apply a delay based on the button index
+             },
+           }}
+           initial="hidden"
+           animate={controls}
+           ref={ref}
+         >
             <button
               type="button"
               key={id}
@@ -36,9 +74,20 @@ const Skills = () => {
             >
               {stack}
             </button>
+            </motion.div>
           ))}
         </div>
       </div>
+      <motion.div 
+            variants={{
+              hidden: {opacity:0, y:50},
+              visible: {opacity:1, y:0,}
+            }}
+            transition={{duration: 0.7}}
+            initial="hidden"
+            animate={controls}
+            allSkillsRef={allSkillsRef}
+            >
       <div className="skill-image-container md:w-[80%] md:mx-auto grid grid-cols-4 md:grid-cols-8 gap-x-5 gap-y-6">
         {currentStack === "fullstack"
           ? technologies.map((tech) => (
@@ -75,6 +124,7 @@ const Skills = () => {
               </Tilt>
             ))}
       </div>
+      </motion.div>
     </section>
   );
 };
