@@ -57,7 +57,6 @@
   .box form {
     position: absolute;
     inset: 4px;
-    background: #222;
     overflow: hidden;
     z-index: 2;
   }
@@ -89,6 +88,8 @@
     animation-delay: -1s;
   }
 
+
+
   @keyframes animate {
     0% {
       transform: rotate(0deg);
@@ -98,6 +99,7 @@
       transform: rotate(360deg);
     }
   }
+
 }
 
 @media screen and (min-width: 768px) {
