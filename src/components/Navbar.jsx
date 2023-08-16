@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`py-4 md:py-1 ${
+      className={`py-3 md:py-1 ${
         isMenuOpen ? `bg-inherit` : `bg-slate-900/80 backdrop-blur-sm`
-      } fixed w-[100%] z-30  `}
+      } fixed w-[100%]  z-30  `}
     >
       <div
-        className={`mobile-menu-bar md:hidden flex justify-end ${
+        className={`mobile-menu-bar md:hidden flex justify-end  ${
           isMenuOpen ? `opacity-50` : `flex`
         }`}
       >
