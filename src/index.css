@@ -8,6 +8,7 @@ body {
   background-color: rgb(30 41 59);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
