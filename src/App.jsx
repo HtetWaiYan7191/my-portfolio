@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
-import UpdateNavbar from './components/UpdateNavbar'
 
 const App = () => {
   return (
