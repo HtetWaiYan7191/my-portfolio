@@ -42,7 +42,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className='contact-me-section h-[100vh] md:h-[100vh] md:pt-36 pt-32 ' id='contact-me-section'>
+    <section className='contact-me-section  md:h-[100vh] md:pt-36 pt-32 ' id='contact-me-section'>
       <motion.div variants={{
         hidden: {opacity:0, y:75},
         visible: {opacity:1, y:0}

@@ -31,7 +31,7 @@ const Projects = () => {
   };
 
   return (
-    <section className='project-section-container relative h-[240vh] md:h-[130vh] lg:h-[150vh] md:pt-36 pt-32' id='project-section'>
+    <section className='project-section-container relative  md:h-[130vh] lg:h-[150vh] md:pt-36 pt-32' id='project-section'>
       <div>
         <motion.div
           variants={{

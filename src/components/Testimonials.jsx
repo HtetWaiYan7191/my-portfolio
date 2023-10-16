@@ -21,7 +21,7 @@ const Testimonials = () => {
     }
   },[headerRefInView, testimonialRefInView])
   return (
-    <section className='testimonials-container h-[280vh] md:h-[200vh] lg:h-[150vh] md:pt-36 pt-32 ' id='testimonial-section'>
+    <section className='testimonials-container md:h-[200vh] lg:h-[150vh] md:pt-36 pt-32 ' id='testimonial-section'>
       <motion.div
       variants={{
         hidden: { opacity: 0, y: 75 },
