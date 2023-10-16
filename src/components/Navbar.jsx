@@ -10,10 +10,10 @@ const Navbar = () => {
     <nav
       className={`py-3 md:py-1 ${
         isMenuOpen ? `bg-inherit` : `bg-slate-900/80 backdrop-blur-sm`
-      } fixed w-[100%]  z-30  `}
+      } fixed left-0 top-0 w-full  z-30 `}
     >
       <div
-        className={`mobile-menu-bar md:hidden flex justify-end  ${
+        className={`mobile-menu-bar md:hidden flex justify-end   ${
           isMenuOpen ? `opacity-50` : `flex`
         }`}
       >
@@ -23,7 +23,7 @@ const Navbar = () => {
         />
       </div>
       <div
-        className={`menu-list-container flex flex-row-reverse z-20 justify-between  bg-slate-800/95 backdrop-blur-sm ${
+        className={`menu-list-container flex flex-row-reverse z-20 justify-between  bg-slate-800/95 backdrop-blur-sm  ${
           isMenuOpen ? "left-[0]" : "-left-100"
         }`}
       >
@@ -54,7 +54,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="hidden md:flex bg-slate-900/50 md:justify-evenly">
+      <div className="hidden md:flex bg-slate-900/50 md:justify-evenly ">
         <ul id="navList" className="list-container text-sky-700 py-2 flex flex-row">
           <li>
             <a href="#introduction-section" className="hover:text-sky-400">Introduction</a>

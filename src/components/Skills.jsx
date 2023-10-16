@@ -28,7 +28,7 @@ const Skills = () => {
     setCurrentStack(stack);
   };
   return (
-    <section className="skill-section-container h-[80vh] md:h-[100vh] md:pt-36 pt-32" id="skill-section">
+    <section className="skill-section-container  md:h-[100vh] md:pt-36 pt-32" id="skill-section">
       <motion.div 
       variants={{
         hidden: {opacity:0, y:-75},
