@@ -25,9 +25,13 @@
     width: 150px;
   }
 
+  .social-links li {
+    transform: scale(1);
+    transition: all 0.4s ease;
+  }
   .social-links li:hover {
     transform: scale(1.4);
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
   }
 
   .animate-intro-img-container {
