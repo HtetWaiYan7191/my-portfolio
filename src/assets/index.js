@@ -1,4 +1,4 @@
-//proects 
+//projects 
 import bookStore from './images/bookStore.png'
 import foodGallery from './images/foodGallery.png'
 import leaderBoard from './images/leaderBoard.png'
@@ -10,6 +10,7 @@ import spaceTravelerMissions from './images/spaceTravelerMissions.png'
 import spaceTravelerProfile from './images/spaceTravelerProfile.png'
 import weatherAppProject from './images/weatherAppProject.png'
 import showCaseMealGallery from './images/showCaseMealGallary.png'
+import budgetApp from './images/budgetApp.png'
 
 //Carousel Images 
 import mathMagiciansHome from './carouselImages/mathMagicians_home.png'
@@ -33,6 +34,13 @@ import weatherMainPc from './carouselImages/weatherMainPc.png'
 import weatherDetailPc from './carouselImages/weatherDetailPc.png'
 import weatherMainMobile from './carouselImages/weatherMainMobile.png'
 import weatherDetailMobile from './carouselImages/weatherDetailMobile.png'
+import budgetMobileCategory from './carouselImages/budgetMobileCategory.png'
+import budgetMobilePurchase from './carouselImages/budgetMobilePurchase.png'
+import budgetMobileHome from './carouselImages/budgetMobileHome.png'
+import budgetMobileSplash from './carouselImages/budgetMobileSplash.png'
+import budgetMobileNavbar from './carouselImages/budgetMobileNavbar.png'
+
+
 
 //testimonials profile 
 
@@ -41,6 +49,7 @@ import ansar from './profileImages/ansar.jpg'
 import fatima from './profileImages/fatima.jpg'
 import ichsan from './profileImages/ichsan.jpg'
 import kiko from './profileImages/kiko.jpg'
+import { Carousel } from 'bootstrap'
 
 //resume 
 
@@ -49,4 +58,4 @@ import kiko from './profileImages/kiko.jpg'
 export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
 ,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todoListHome, adeyemi, kiko, ichsan, ansar, fatima,
-weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc}
+weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash}
