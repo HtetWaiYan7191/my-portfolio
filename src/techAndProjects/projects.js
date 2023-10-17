@@ -1,4 +1,4 @@
-import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
+import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, leaderBoard, mathMagicians, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
     ,spaceMission, spaceTravelerAbout,showCaseMealGallery, spaceTravelerHome,leaderBoardMain, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash} from '../assets/index.js';
 
 const projects = [
@@ -11,7 +11,7 @@ const projects = [
         liveLink:'https://budget-app-ugv5.onrender.com/',
         techStack:['FullStack', 'Rails', 'PostgreSQL'],
         cardOpen: false,
-        carouselImage:[budgetMobileSplash, budgetMobileHome, budgetMobileCategory, budgetMobilePurchase]
+        carouselImage:[budgetMobileSplash, budgetMobileHome, budgetMobileNavbar, budgetMobileCategory, budgetMobilePurchase]
     },
 
     {   
