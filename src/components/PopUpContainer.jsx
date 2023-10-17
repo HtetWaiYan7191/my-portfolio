@@ -11,7 +11,7 @@ const PopUpContainer = ({ popUpProject, setOpenPopCard, openPopCard }) => {
   return (
     <div
       className={`pop-up-container fixed md:flex md:justify-center md:items-center  transition-all duration-500 ease  ${
-        openPopCard ? `z-40 left-0 top-0 ` : ` left-[-100%] `
+        openPopCard ? `z-40 left-0 top-0` : `  `
       } backdrop-blur-md   w-[100%] h-[100vh]  bg-slate-600/50`}
     >
       <div
