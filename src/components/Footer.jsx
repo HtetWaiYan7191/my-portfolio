@@ -17,7 +17,7 @@ const Footer = () => {
     }
   }, [isInView])
   return (
-    <section className='footer-section py-10 md:pt-36 pt-32'>
+    <section className='footer-section  md:pt-36 my-10'>
       <div className='footer-container border-t'>
         <motion.div variants={{
           hidden:{opacity:0, y:75,},
@@ -29,11 +29,11 @@ const Footer = () => {
         ref={ref}
         >
       <ul className='social-links flex mt-6 justify-center items-center'>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://www.linkedin.com/in/htet-wai-yan19/' target='blank'><BsLinkedin/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://www.instagram.com/1918hwy/' target='blank'><BsInstagram/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://github.com/HtetWaiYan7191' target='blank'><BsGithub/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://wellfound.com/u/htet-wai-yan-1' target='blank'><FaAngellist/></a ></li>
-        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium md:text-xl'><a href='https://www.facebook.com/profile.php?id=100010329042751' target='blank'><BsFacebook/></a></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-xl text-medium md:text-2xl'><a href='https://www.linkedin.com/in/htet-wai-yan19/' target='blank'><BsLinkedin/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-xl text-medium md:text-2xl'><a href='https://www.instagram.com/1918hwy/' target='blank'><BsInstagram/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-xl text-medium md:text-2xl'><a href='https://github.com/HtetWaiYan7191' target='blank'><BsGithub/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-xl text-medium md:text-2xl'><a href='https://wellfound.com/u/htet-wai-yan-1' target='blank'><FaAngellist/></a ></li>
+        <li className='me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-xl text-medium md:text-2xl'><a href='https://www.facebook.com/profile.php?id=100010329042751' target='blank'><BsFacebook/></a></li>
       </ul>  
       </motion.div>
       </div>

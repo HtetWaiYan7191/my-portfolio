@@ -16,7 +16,7 @@ const AboutMe = () => {
 
   return (
     <section
-      className="about-me-container h-[60vh] md:h-[80vh] lg:h-[100vh] md:pt-36 pt-32 "
+      className="about-me-container  md:h-[80vh] lg:h-[100vh] md:pt-36 pt-32 "
       id="about-me-section"
     >
       <motion.div
