@@ -49,7 +49,6 @@ import ansar from './profileImages/ansar.jpg'
 import fatima from './profileImages/fatima.jpg'
 import ichsan from './profileImages/ichsan.jpg'
 import kiko from './profileImages/kiko.jpg'
-import { Carousel } from 'bootstrap'
 
 //resume 
 
