@@ -11,6 +11,7 @@ import spaceTravelerProfile from './images/spaceTravelerProfile.png'
 import weatherAppProject from './images/weatherAppProject.png'
 import showCaseMealGallery from './images/showCaseMealGallary.png'
 import budgetApp from './images/budgetApp.png'
+import yachtRental from './images/yachtRental.png'
 
 //Carousel Images 
 import mathMagiciansHome from './carouselImages/mathMagicians_home.png'
@@ -39,6 +40,18 @@ import budgetMobilePurchase from './carouselImages/budgetMobilePurchase.png'
 import budgetMobileHome from './carouselImages/budgetMobileHome.png'
 import budgetMobileSplash from './carouselImages/budgetMobileSplash.png'
 import budgetMobileNavbar from './carouselImages/budgetMobileNavbar.png'
+import yachtDesktopDelete from './carouselImages/yachtDesktopDelete.png'
+import yachtDesktopDetail from './carouselImages/yachtDesktopDetail.png'
+import yachtDesktopMain from './carouselImages/yachtDesktopMain.png'
+import yachtDesktopMyReservations from './carouselImages/yachtDesktopMyReservations.png'
+import yachtDesktopSignup from './carouselImages/yachtDesktopSignup.png'
+import yachtDesktopSplash from './carouselImages/yachtDesktopSplash.png'
+import yachtMobileAdd from './carouselImages/yachtMobileAdd.png'
+import yachtMobileDelete from './carouselImages/yachtMobileDelete.png'
+import yachtMobileDetail from './carouselImages/yachtMobileDetail.png'
+import yachtMobileMain from './carouselImages/yachtMobileMain.png'
+import yachtMobileMyReservations from './carouselImages/yachtMobileMyReservations.png'
+import yachtMobileSplash from './carouselImages/yachtMobileSplash.png'
 
 
 
@@ -57,4 +70,4 @@ import kiko from './profileImages/kiko.jpg'
 export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
 ,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todoListHome, adeyemi, kiko, ichsan, ansar, fatima,
-weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash}
+weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental}
