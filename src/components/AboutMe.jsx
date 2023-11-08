@@ -60,7 +60,7 @@ const AboutMe = () => {
           Over the past months, I have worked on various projects, collaborating
           with developers from around the world to develop APIs and web pages.
         </p>
-        <a href="https://drive.google.com/file/d/1qS5bK2p9yM3MJplNNE7nZsxf-VXeZhaV/view?usp=sharing" target="blank">
+        <a href="https://docs.google.com/document/d/1RJTIZd29qduKapuckSYj1RiVjpw95L2wAtqGLnP3Jdo/edit?usp=sharing" target="blank">
           <button
             className={`border-2 border-white/90 hover:border-sky-500 bg-slate-900 text-white/90 font-bold py-1 px-2 mt-5 rounded-sm d-button `}
             type="button"
