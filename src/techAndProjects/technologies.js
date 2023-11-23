@@ -20,6 +20,21 @@ const technologies = [
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg',
     },
     {
+      stack: 'tools',
+      name: 'MySQL',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg',
+    },
+    {
+      stack: 'backend',
+      name: 'Php',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg',
+    },
+    {
+      stack: 'backend',
+      name: 'Laravel',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
+    },
+    {
       stack: 'frontend',
       name: 'React JS',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
