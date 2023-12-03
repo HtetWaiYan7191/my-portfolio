@@ -64,7 +64,6 @@ const Skills = () => {
          >
             <button
               type="button"
-              key={id}
               className={` px-3 capitalize text-white/90  md:text-xl md:hover:text-sky-400  ${
                 currentStack === stack
                   ? ` text-sky-400 border-sky-500 md:text-sky-500 border d-button `

@@ -47,11 +47,11 @@ const AboutMe = () => {
       >
       <div  className="about-me-card p-5 mt-5 md:w-[50%] mx-auto md:border md:border-cyan-400 md:p-10 md:rounded-md md:mt-10 md:transition-all duration-200 ease md:bg-slate-900 md:hover:shadow-lg md:hover:shadow-sky-500">
         <p
-          className={`text-justify text-gray-300 para-1 transition-all duration-700 ease `}
-        >
-          I am a full-stack developer with expertise in{" "}
-          <span className="text-effect">React, Redux, and Rails </span>to create
-          tailored software solutions for diverse businesses.
+          className={`text-justify text-gray-300 md:text-lg para-1 transition-all duration-700 ease `}
+        > 
+        Full-stack developer with over  <span className="text-effect"> 1300+ </span> hours spent building 15+ projects in <span className="text-effect">React, Redux, Rails And Laravel</span>.
+         Primarily worked in remote environments with 50+ developers in less than six months. Known for being a collaborative team player,
+          detail-oriented, and enjoying problem-solving.
         </p>
 
         <p
@@ -62,7 +62,7 @@ const AboutMe = () => {
         </p>
         <a href="https://docs.google.com/document/d/1RJTIZd29qduKapuckSYj1RiVjpw95L2wAtqGLnP3Jdo/edit?usp=sharing" target="blank">
           <button
-            className={`border-2 border-white/90 hover:border-sky-500 bg-slate-900 text-white/90 font-bold py-1 px-2 mt-5 rounded-sm d-button `}
+            className={`border-2 text-lg border-sky-400 hover:border-sky-500   text-sky-300 font-bold py-1 px-3 mt-5 rounded-sm d-button `}
             type="button"
           >
             Resume
