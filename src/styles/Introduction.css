@@ -22,7 +22,7 @@
   }
 
   .intro-img-container img {
-    width: 150px;
+    width: 60%;
   }
 
   .social-links li {
@@ -132,5 +132,9 @@
 @media screen and (min-width: 768px) {
   #introduction-section {
     animation: animate-section 3s  infinite;
+  }
+
+  .intro-img-container img {
+    width: 30%;
   }
 }

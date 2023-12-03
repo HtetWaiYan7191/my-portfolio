@@ -23,8 +23,8 @@ const Introduction = () => {
         </h2>
         <h3 className="text-sky-200 font-mono mt-3">Full Stack Developer</h3>
 
-        <ul className="social-links flex mt-6 justify-center items-center">
-          <li className="me-5 text-center px-2 hover:text-sky-500 text-sky-200 text-medium">
+        <ul className="social-links flex mt-6 justify-center items-center text-xl">
+          <li className="me-5 text-center px-2 hover:text-sky-500 text-sky-200  text-medium">
             <a
               href="https://www.linkedin.com/in/htet-wai-yan19/"
               target="blank"
