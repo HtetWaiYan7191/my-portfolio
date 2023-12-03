@@ -10,7 +10,9 @@
     font-size: 0.9em;
     padding: 10px;
     transition: 0.5s;
+    resize: none;
   }
+
 
   .input-box span {
     position: absolute;
@@ -48,7 +50,6 @@
   .box {
     position: relative;
     margin: 0  auto;
-    width: 380px;
     height: 550px;
     background-color: inherit;
     border-radius: 8px;
