@@ -107,7 +107,7 @@ const ContactMe = () => {
               id='message'
               cols='38'
               rows='7'
-              className='md:w-[100%]'
+              className='w-[100%]'
               value={message}
               onChange={handleMessageChange}
               required
