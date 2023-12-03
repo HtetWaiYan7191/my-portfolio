@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
   .input-box input,
   .input-box textarea {
     border: 1px solid rgba(255, 255, 255, 0.25);

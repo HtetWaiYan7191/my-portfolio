@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
   .about-me-title {
     position: relative;
   }
@@ -15,7 +15,7 @@
     position: absolute;
     background-color: hsl(199, 89%, 48%);
     height: 2px;
-    width: 30%;
+    width: 40%;
     bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
