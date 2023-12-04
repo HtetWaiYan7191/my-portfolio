@@ -28,7 +28,7 @@ const Skills = () => {
     setCurrentStack(stack);
   };
   return (
-    <section className="skill-section-container  md:h-[100vh] md:pt-36 pt-32" id="skill-section">
+    <section className="skill-section-container  md:h-[100vh] md:pt-36 pt-32 px-5 md:px-0" id="skill-section">
       <motion.div 
       variants={{
         hidden: {opacity:0, y:-75},
@@ -40,13 +40,13 @@ const Skills = () => {
       ref={ref}
       >
       <h2
-        className={`text-sky-200 font-semibold font-mono text-center text-3xl about-me-title`}
+        className={`text-sky-200 font-semibold font-mono tracking-wider text-center text-3xl about-me-title`}
       >
-        TECH STACK
+        Tech Stack
       </h2>
       </motion.div>
       <div className="skill-section my-10 ">
-        <div className="skill-button-container flex justify-evenly md:justify-center w-[90%] mx-auto items-center">
+        <div className="skill-button-container flex justify-evenly md:justify-center w-[80%] mx-auto items-center">
           {techStacks.map((stack,id) => (
            <motion.div
            key={id}
