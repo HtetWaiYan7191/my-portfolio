@@ -20,6 +20,7 @@ const ProjectCard = ({ project, handlePopUp, openPopCard }) => {
   const handleClick = (e) => {
     e.preventDefault();
     setOpenCard(!openCard)
+    setIsHovered(!openCard)
     project.cardOpen = !openCard ;
   }
 
@@ -35,7 +36,7 @@ const ProjectCard = ({ project, handlePopUp, openPopCard }) => {
         />
       </figure>
       <div className={`absolute text-sky-500  ${isHovered ? `showProject md:bottom-[0%] md:block` : `hideProject md:bottom-[-100%] `}  overflow-hidden z-10 ${project.cardOpen ? `showProject bottom-[0%]` : `hideProject bottom-[-74%]`} overflow-card bg-slate-900/80 backdrop-blur-sm  left-0 w-[100%] h-[100%]`}>
-        <div className={`project title flex justify-between md:justify-center px-5 ${project.cardOpen ? `bg-slate-900/70 showProject` : ` bg-slate-900/90 hideProject`} items-center border-b md:border-b-0 border-b-gray-50/50  opacity-80`}>
+        <div className={`project title flex justify-between md:justify-center px-5 ${project.cardOpen ? `bg-slate-900/70 showProject` : ` bg-slate-900/90 hideProject`} items-center  opacity-80`}>
             <h2 className=" py-1 text-[1.5rem] md:py-3  md:text-[1.8rem] font-bold text-sky-300  intro-name">{project.name}</h2>
               {!project.cardOpen ? (
                  <button type="button" className="up-arrow-container" onClick={handleClick}>
