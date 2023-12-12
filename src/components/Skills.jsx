@@ -28,7 +28,7 @@ const Skills = () => {
     setCurrentStack(stack);
   };
   return (
-    <section className="skill-section-container  md:h-[100vh] md:pt-36 pt-32 px-5 md:px-0" id="skill-section">
+    <section className="skill-section-container  md:h-[100vh] md:pt-36 pt-32  px-2 md:px-0" id="skill-section">
       <motion.div 
       variants={{
         hidden: {opacity:0, y:-75},
@@ -40,13 +40,13 @@ const Skills = () => {
       ref={ref}
       >
       <h2
-        className={`text-sky-200 font-semibold font-mono tracking-wider text-center text-3xl about-me-title`}
+        className={`text-sky-200 font-semibold font-mono tracking-wider text-center  text-3xl about-me-title`}
       >
         Tech Stack
       </h2>
       </motion.div>
       <div className="skill-section my-10 ">
-        <div className="skill-button-container flex justify-evenly md:justify-center w-[80%] mx-auto items-center">
+        <div className="skill-button-container flex justify-evenly md:justify-center w-[80%] mx-auto items-center ">
           {techStacks.map((stack,id) => (
            <motion.div
            key={id}
@@ -64,11 +64,11 @@ const Skills = () => {
          >
             <button
               type="button"
-              className={` px-3 capitalize text-white/90  md:text-xl md:hover:text-sky-400  ${
+              className={` px-1 md:px-3 capitalize text-white/90  md:text-normal  md:text-xl md:hover:text-sky-400  ${
                 currentStack === stack
                   ? ` text-sky-400 border-sky-500 md:text-sky-500 border d-button `
                   : `text-white`
-              }  py-2  font-semibold`}
+              }  py-1 md:py-2  font-semibold`}
               onClick={() => handleClick(stack)}
             >
               {stack}

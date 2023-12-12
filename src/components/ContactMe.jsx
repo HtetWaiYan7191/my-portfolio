@@ -68,7 +68,7 @@ const ContactMe = () => {
         transition={{duration: 0.5}}
         ref={endingRef}
         >
-          <p className='text-white/90 text-sm text-center font-semibold my-10  md:text-lg  md:my-5'>
+          <p className='text-white/90 px-3 text-sm text-center font-semibold my-10  md:text-lg  md:my-5'>
             I am  interested in learning about fresh projects and exploring potential
             collaborations. So don't hesitate to reach out and start a conversation. I'm here
             to assist you in any way I can.
