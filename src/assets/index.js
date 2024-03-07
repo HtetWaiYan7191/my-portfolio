@@ -9,9 +9,9 @@ import spaceTraveler from './images/spaceTraveler.png'
 import spaceTravelerMissions from './images/spaceTravelerMissions.png'
 import spaceTravelerProfile from './images/spaceTravelerProfile.png'
 import weatherAppProject from './images/weatherAppProject.png'
-import showCaseMealGallery from './images/showCaseMealGallary.png'
 import budgetApp from './images/budgetApp.png'
 import yachtRental from './images/yachtRental.png'
+import pizzaOrder from './images/pizzaOrder.png'
 
 //Carousel Images 
 import mathMagiciansHome from './carouselImages/mathMagicians_home.png'
@@ -52,7 +52,11 @@ import yachtMobileDetail from './carouselImages/yachtMobileDetail.png'
 import yachtMobileMain from './carouselImages/yachtMobileMain.png'
 import yachtMobileMyReservations from './carouselImages/yachtMobileMyReservations.png'
 import yachtMobileSplash from './carouselImages/yachtMobileSplash.png'
-
+import pizzaOrderHome from './carouselImages/pizzaOrderHome.png'
+import pizzaOrderMain from './carouselImages/pizzaOrderMain.png'
+import pizzaOrderCart from './carouselImages/pizzaOrderCart.png'
+import pizzaOrderNew from './carouselImages/pizzaOrderNew.png'
+import pizzaOrderDetail from './carouselImages/pizzaOrderDetail.png'
 
 
 //testimonials profile 
@@ -70,4 +74,5 @@ import kiko from './profileImages/kiko.jpg'
 export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
 ,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todoListHome, adeyemi, kiko, ichsan, ansar, fatima,
-weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental}
+weatherDetailMobile, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental,
+pizzaOrder,pizzaOrderCart, pizzaOrderDetail, pizzaOrderHome, pizzaOrderMain, pizzaOrderNew}

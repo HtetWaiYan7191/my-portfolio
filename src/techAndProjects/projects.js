@@ -1,5 +1,5 @@
-import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, leaderBoard, mathMagicians, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
-    ,spaceMission, spaceTravelerAbout,showCaseMealGallery, spaceTravelerHome,leaderBoardMain, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental} from '../assets/index.js';
+import {bookStore,weatherAppProject,weatherDetailMobile,weatherDetailPc,weatherMainMobile,weatherMainPc,foodGallery, mathMagicians, pokemon, spaceTraveler, mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome,  pokemonComments, pokemonHome, pokemonReservations
+    ,spaceMission, spaceTravelerAbout, pizzaOrder, pizzaOrderCart, pizzaOrderDetail, pizzaOrderHome, pizzaOrderMain, pizzaOrderNew , spaceTravelerHome, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental} from '../assets/index.js';
 
 const projects = [
     {   
@@ -65,14 +65,14 @@ const projects = [
 
     {   
         id: 6,
-        name: 'Meal Gallery',
-        description: 'A meal gallery website is an online platform dedicated to showcasing a vast collection of food-related images, recipes, culinary creations, and gastronomic experiences. It serves as a visual feast for food enthusiasts, offering a visually appealing and inspiring journey through the world of food.',
-        image: showCaseMealGallery,
-        sourceLink: 'https://github.com/HtetWaiYan7191/meal-gallery',
-        liveLink:'https://htetwaiyan7191.github.io/meal-gallery/dist',
-        techStack:['Frontend','React','JavaScript'],
+        name: 'Pizza Order',
+        description: "The React Pizza Order App is a client-side application that I implemented using Redux Toolkit, React Router, and React. Users can easily use the app by entering their name, ordering food, and managing the cart seamlessly. For data, I am utilizing the Fast Pizza API for this project.",
+        image:pizzaOrder,
+        sourceLink: 'https://github.com/HtetWaiYan7191/react-pizza-order',
+        liveLink:'https://react-pizza-order-git-development-htetwaiyan7191s-projects.vercel.app/',
+        techStack:['Frontend','React','Redux', 'TailwindCSS'],
         cardOpen: false,
-        carouselImage:[mealGalleryHome, mealGalleryComments]
+        carouselImage:[pizzaOrderHome, pizzaOrderMain, pizzaOrderDetail,pizzaOrderCart, pizzaOrderNew]
     },
 
     {   
