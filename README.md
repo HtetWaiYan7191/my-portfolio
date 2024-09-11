@@ -127,7 +127,7 @@ npx stylelint "**/*.{css,scss}"
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [x] Add Ruby projects
+- [x] Add PHP projects
 - [x] Add scroll effect 
 - [x] Add user friendly animation
 

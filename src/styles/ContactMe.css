@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 300px) {
   .input-box input,
   .input-box textarea {
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -10,7 +10,9 @@
     font-size: 0.9em;
     padding: 10px;
     transition: 0.5s;
+    resize: none;
   }
+
 
   .input-box span {
     position: absolute;
@@ -47,7 +49,8 @@
 
   .box {
     position: relative;
-    width: 380px;
+    width: 95%;
+    margin: 0  auto;
     height: 550px;
     background-color: inherit;
     border-radius: 8px;
@@ -55,6 +58,8 @@
   }
 
   .box form {
+    margin: 0px auto;
+    width: 98%;
     position: absolute;
     inset: 4px;
     overflow: hidden;
@@ -96,6 +101,12 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+}
+
+@media  screen and (min-width: 375px) {
+  .box {
+    width: 96%;
   }
 }
 

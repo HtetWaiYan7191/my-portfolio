@@ -52,13 +52,13 @@ const ContactMe = () => {
       transition={{duration: 0.5}}
       ref={headerRef}
       >
-      <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title '>
+      <h2 className='font-mono text-3xl font-semibold text-center text-sky-200 about-me-title '>
         Contact Me
       </h2>
       </motion.div>
-      <div className='contact-me my-10 flex flex-col md:flex-row md:items-center md:w-[90%] md:mx-auto justify-around'>
+      <div className='contact-me my-10 flex flex-col lg:flex-row md:items-center md:w-[90%] md:mx-auto justify-around'>
 
-        <div className='ending-text mx-auto  md:flex-1 md:px-20 '>
+        <div className='mx-auto ending-text md:px-20 '>
         <motion.div variants={{
           hidden: {opacity:0, x:-50},
           visible: {opacity:1, x:0}
@@ -68,7 +68,7 @@ const ContactMe = () => {
         transition={{duration: 0.5}}
         ref={endingRef}
         >
-          <p className='text-white/90 text-sm text-center font-semibold my-10  md:text-lg  md:my-5'>
+          <p className='px-3 my-10 text-sm font-semibold text-center text-white/90 md:text-lg md:my-5'>
             I am  interested in learning about fresh projects and exploring potential
             collaborations. So don't hesitate to reach out and start a conversation. I'm here
             to assist you in any way I can.
@@ -85,10 +85,10 @@ const ContactMe = () => {
        ref={formRef}
        transition={{duration:0.5}}
        >
-        <div className='box  md:my-5 md:flex-1 mx-auto md:mx-0'>
+        <div className='mx-auto box md:my-5 md:flex-1 md:mx-0'>
           <span className='borderLine'></span>
-        <form className='form-container bg-slate-900 z-20  py-10  px-5 rounded-md mx-auto ' action="https://formspree.io/f/mknayjll" method='POST'>
-          <h2 className='text-white/90 text-center text-2xl md:text-3xl font-bold md:text-sky-500 twinkle-animation'>Keep In Touch</h2>
+        <form className='z-20 px-5 py-10 mx-auto rounded-md form-container bg-slate-900 ' action="https://formspree.io/f/mknayjll" method='POST'>
+          <h2 className='text-2xl font-bold tracking-wider text-center text-white/90 md:text-3xl md:text-sky-500 twinkle-animation'>Keep In Touch</h2>
           <div className={`input-box my-7 relative w-[100%] mx-auto `}>
             <input type='text' className='w-[100%]' required value={name} onChange={handleNameChange} />
             <span>Name</span>
@@ -107,15 +107,15 @@ const ContactMe = () => {
               id='message'
               cols='38'
               rows='7'
-              className='md:w-[100%]'
+              className='w-[100%]'
               value={message}
               onChange={handleMessageChange}
               required
             ></textarea>
             <span className={` ${message ? 'hide-placeholder' : ''}`}>How can I help you?</span>
           </div>
-         <div className="button-container flex justify-center md:my-5">
-         <button className="border-2 d-button border-sky-500 bg-sky-500/20 text-sky-300 font-bold py-1 px-2  rounded-sm" type="submit" >
+         <div className="flex justify-center button-container md:my-5">
+         <button className="px-2 py-1 font-bold border-2 rounded-sm d-button border-sky-500 bg-sky-500/20 text-sky-300" type="submit" >
            Submit
         </button>
          </div>

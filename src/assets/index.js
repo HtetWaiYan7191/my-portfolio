@@ -9,8 +9,9 @@ import spaceTraveler from './images/spaceTraveler.png'
 import spaceTravelerMissions from './images/spaceTravelerMissions.png'
 import spaceTravelerProfile from './images/spaceTravelerProfile.png'
 import weatherAppProject from './images/weatherAppProject.png'
-import showCaseMealGallery from './images/showCaseMealGallary.png'
 import budgetApp from './images/budgetApp.png'
+import yachtRental from './images/yachtRental.png'
+import pizzaOrder from './images/pizzaOrder.png'
 
 //Carousel Images 
 import mathMagiciansHome from './carouselImages/mathMagicians_home.png'
@@ -39,7 +40,23 @@ import budgetMobilePurchase from './carouselImages/budgetMobilePurchase.png'
 import budgetMobileHome from './carouselImages/budgetMobileHome.png'
 import budgetMobileSplash from './carouselImages/budgetMobileSplash.png'
 import budgetMobileNavbar from './carouselImages/budgetMobileNavbar.png'
-
+import yachtDesktopDelete from './carouselImages/yachtDesktopDelete.png'
+import yachtDesktopDetail from './carouselImages/yachtDesktopDetail.png'
+import yachtDesktopMain from './carouselImages/yachtDesktopMain.png'
+import yachtDesktopMyReservations from './carouselImages/yachtDesktopMyReservations.png'
+import yachtDesktopSignup from './carouselImages/yachtDesktopSignup.png'
+import yachtDesktopSplash from './carouselImages/yachtDesktopSplash.png'
+import yachtMobileAdd from './carouselImages/yachtMobileAdd.png'
+import yachtMobileDelete from './carouselImages/yachtMobileDelete.png'
+import yachtMobileDetail from './carouselImages/yachtMobileDetail.png'
+import yachtMobileMain from './carouselImages/yachtMobileMain.png'
+import yachtMobileMyReservations from './carouselImages/yachtMobileMyReservations.png'
+import yachtMobileSplash from './carouselImages/yachtMobileSplash.png'
+import pizzaOrderHome from './carouselImages/pizzaOrderHome.png'
+import pizzaOrderMain from './carouselImages/pizzaOrderMain.png'
+import pizzaOrderCart from './carouselImages/pizzaOrderCart.png'
+import pizzaOrderNew from './carouselImages/pizzaOrderNew.png'
+import pizzaOrderDetail from './carouselImages/pizzaOrderDetail.png'
 
 
 //testimonials profile 
@@ -49,7 +66,6 @@ import ansar from './profileImages/ansar.jpg'
 import fatima from './profileImages/fatima.jpg'
 import ichsan from './profileImages/ichsan.jpg'
 import kiko from './profileImages/kiko.jpg'
-import { Carousel } from 'bootstrap'
 
 //resume 
 
@@ -58,4 +74,5 @@ import { Carousel } from 'bootstrap'
 export {bookStore, weatherAppProject,foodGallery, leaderBoard, mathMagicians, todolist, pokemon, spaceTraveler, spaceTravelerMissions, spaceTravelerProfile
 ,mathMagiciansHome, mathMagiciansQuote, mathMagicians_calculator, bookStoreDark, bookStoreLight, foodGalleryDetails, foodGalleryHome, mealGalleryComments, mealGalleryHome, pokemonComments, pokemonHome, pokemonReservations
 ,spaceMission, spaceTravelerAbout, spaceTravelerHome, leaderBoardMain, todoListHome, adeyemi, kiko, ichsan, ansar, fatima,
-weatherDetailMobile,showCaseMealGallery, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash}
+weatherDetailMobile, weatherDetailPc, weatherMainMobile, weatherMainPc, budgetApp, budgetMobileCategory, budgetMobileHome, budgetMobileNavbar, budgetMobilePurchase, budgetMobileSplash, yachtDesktopDelete, yachtDesktopDetail, yachtDesktopMain, yachtDesktopMyReservations, yachtDesktopSignup, yachtDesktopSplash, yachtMobileAdd, yachtMobileDelete, yachtMobileDetail, yachtMobileMain, yachtMobileMyReservations, yachtMobileSplash, yachtRental,
+pizzaOrder,pizzaOrderCart, pizzaOrderDetail, pizzaOrderHome, pizzaOrderMain, pizzaOrderNew}

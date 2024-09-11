@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState} from "react";
 import { BiMenuAltRight } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
