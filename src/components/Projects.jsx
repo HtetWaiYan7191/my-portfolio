@@ -31,7 +31,7 @@ const Projects = () => {
   };
 
   return (
-    <section className='project-section-container relative  md:h-[130vh] lg:h-[150vh] md:pt-36 pt-32' id='project-section'>
+    <section className='relative pt-32 project-section-container md:pt-36' id='project-section'>
       <div>
         <motion.div
           variants={{
@@ -43,7 +43,7 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
           ref={firstDivRef}
         >
-          <h2 className='text-sky-200 font-semibold font-mono text-center text-3xl about-me-title'>Recent Work</h2>
+          <h2 className='font-mono text-3xl font-semibold text-center text-sky-200 about-me-title'>Recent Work</h2>
         </motion.div>
       </div>
       <div>
